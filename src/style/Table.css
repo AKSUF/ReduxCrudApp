@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F5ECD6;
+    margin: 20px 0;
+}
+
+th {
+    background-color: blue;
+    color: red;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0047B3;
+}

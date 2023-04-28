@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #F5ECD6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0047B3;
+}
